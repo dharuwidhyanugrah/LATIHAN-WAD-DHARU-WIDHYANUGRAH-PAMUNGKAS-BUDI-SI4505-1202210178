@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color:aquamarine;
+}
+h2{
+    text-align: left;
+    color:brown;
+}
+h3{
+    text-align: right;
+    color:green;
+}
+p{
+    text-align: center;
+    color:magenta;
+}

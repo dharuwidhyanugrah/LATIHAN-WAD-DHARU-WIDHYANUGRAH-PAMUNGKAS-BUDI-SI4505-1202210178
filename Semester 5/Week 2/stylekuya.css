@@ -1,0 +1,19 @@
+body{
+    background-color:beige;
+    background-image: url(https://i.pinimg.com/564x/43/ed/f2/43edf2961c969fc4c13885dd923a8855.jpg);
+    background-repeat: repeat;
+    background-position: top;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color:white;
+    text-indent: 30px;
+}
+
+p{
+    text-align: justify;
+    color: white;
+    letter-spacing: normal;
+}
