@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AKN Bojonegoro</title>
+    </head>
+
+    <body>
+        <h1>Javascript can change images</h1>
+        <img id="myImage" onclick="changeImage()" src="https://i.scdn.co/image/ab67616d0000b273decd839dd4fef3faf64c5fd5" width="180" height="180">
+        <p>Click the image to change image.</p>
+        <script>
+            function changeImage() {
+                var image = document.getElementById('myImage');
+                if (image.src.match("bulbon")){
+                    image.src="https://i.scdn.co/image/ab67616d0000b273decd839dd4fef3faf64c5fd5";
+                }
+                else{
+                    image.src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/600x600bf-60.jpg";
+                }
+            }
+        </script>
+    </body>
+</html>
